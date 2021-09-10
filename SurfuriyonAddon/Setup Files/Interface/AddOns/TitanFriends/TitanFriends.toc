@@ -1,0 +1,8 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 친구정보
+## Notes: 타이탄 패널에 친구정보를 보여줍니다.
+## Author: Kragus | Windrunner
+## SavedVariables: 
+## OptionalDeps: 
+## Dependencies: Titan
+TitanFriends.xml

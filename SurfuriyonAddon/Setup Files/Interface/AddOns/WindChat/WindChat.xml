@@ -1,0 +1,31 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindChat.lua"/>
+	<Frame name="WindChatBorder" frameStrata="BACKGROUND" hidden="true" virtual="true">
+		<Scripts>
+			<OnLoad>WindChat_OnLoad();</OnLoad>
+			<OnMouseWheel>WindChat_OnMouseWheel(arg1);</OnMouseWheel>
+		</Scripts>
+	</Frame>
+	<Frame name="WindChatFrame1" parent="ChatFrame1" inherits="WindChatBorder" hidden="false"/>
+	<Frame name="WindChatFrame2" parent="ChatFrame2" inherits="WindChatBorder" hidden="false"/>
+	<Frame name="WindChatFrame3" parent="ChatFrame3" inherits="WindChatBorder" hidden="false"/>
+	<Frame name="WindChatFrame4" parent="ChatFrame4" inherits="WindChatBorder" hidden="false"/>
+	<Frame name="WindChatFrame5" parent="ChatFrame5" inherits="WindChatBorder" hidden="false"/>
+	<Frame name="WindChatFrame6" parent="ChatFrame6" inherits="WindChatBorder" hidden="false"/>
+	<Frame name="WindChatFrame7" parent="ChatFrame7" inherits="WindChatBorder" hidden="false"/>
+	<Frame name="WindChatEditBox" parent="ChatFrameEditBox" inherits="WindBorder" frameStrata="DIALOG" hidden="false">
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="WindChatEditBoxBG">
+					<Color r="0.0" g="0.0" b="0.0" a="1.0"/>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad>WindChatEditBox_OnLoad();</OnLoad>
+			<OnEvent>WindChatEditBox_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

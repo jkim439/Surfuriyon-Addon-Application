@@ -1,0 +1,17 @@
+## Interface: 11100
+## Title: Scrolling Combat Text v4.131
+## Title-koKR: 전투 메세지 확장 v4.131
+## Notes: Adds Scrolling Combat Text above you character
+## Notes-koKR: 자신의 캐릭터 위에 움직이는 전투 메세지가 표시됩니다.
+## SavedVariables: SCT_CONFIG
+## OptionalDeps: myAddOns, Cosmos, CT_MasterMod, EarthFeatureFrame
+## Dependencies: 
+localization.lua
+localization.de.lua
+localization.fr.lua
+localization.kr.lua
+localization.sp.lua
+sct_global_parser.lua
+sct_event_config.lua
+sct.lua
+sct.xml

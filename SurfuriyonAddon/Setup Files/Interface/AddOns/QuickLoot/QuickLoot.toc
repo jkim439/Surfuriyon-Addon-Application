@@ -1,0 +1,10 @@
+## Interface: 11100
+## Title: QuickLoot
+## Notes: Automatically positions the most relevant part of the loot window under your cursor
+## Title-koKR: 빠른 루팅
+## Notes-koKR: 루팅시 마우스 위치로 루팅창이 자동 이동하여 마우스를 움직이지 않고 루팅할 수 있습니다.
+## Notes-deDE: Den am meisten relevanten Teil des Lootfensters automatisch unter dem Mauszeiger setzen.
+## Author: Telo
+## OptionalDeps: Cosmos, Khaos
+## SavedVariables: QuickLoot_Options
+QuickLoot.xml

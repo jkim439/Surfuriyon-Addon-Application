@@ -1,0 +1,18 @@
+## Interface: 11000
+## Title: Wind Action
+## Author: Jae-young Lee (Wind)
+## Version: 4.1
+## Notes: Remake Menu Micro Button, Action Button, and Bag Slot
+## Dependencies: WindCommon
+## SavedVariablesPerCharacter: WindActionMainConfig, WindActionBottomLeftConfig, WindActionBottomRightConfig, WindActionRightConfig, WindActionLeftConfig, WindActionShiftConfig, WindActionPetConfig, WindActionMenuConfig, WindActionBagConfig
+WindAction.xml
+WindActionMain.xml
+WindActionBottomLeft.xml
+WindActionBottomRight.xml
+WindActionRight.xml
+WindActionLeft.xml
+WindActionShift.xml
+WindActionBonus.xml
+WindActionPet.xml
+WindActionMenu.xml
+WindActionBag.xml

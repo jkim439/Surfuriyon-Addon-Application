@@ -1,0 +1,10 @@
+## Interface: 11000
+## Title: ChatScroll
+## Title-koKR: 채팅창 스크롤 기능
+## Notes: Makes chat windows scrollable with the mouse wheel and has scroll button visibility options.
+## Notes-koKR: 마우스 휠로 채팅창을 스크롤 할 수 있는 기능입니다.
+## Notes-deDE: Chatfenster mit dem Mausrad rauf und runter scrollen.
+## Author: AnduinLothar
+## OptionalDeps: Khaos
+localization.lua
+ChatScroll.lua

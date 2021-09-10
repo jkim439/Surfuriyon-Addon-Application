@@ -1,0 +1,6 @@
+## Interface: 11000
+## Title: Wind Common
+## Author: Jae-young Lee (Wind)
+## Version: 4.0
+## Notes: Wind Common API
+WindCommon.xml

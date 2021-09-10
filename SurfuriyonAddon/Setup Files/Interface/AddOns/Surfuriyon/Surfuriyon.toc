@@ -1,0 +1,6 @@
+## Interface: 11100
+## Title: 써퓨리온 애드온 2.0.2
+## Notes: 써퓨리온 애드온 2.0.2 버전을 로딩합니다.
+## Author: 써퓨리온
+## Version: 2.0.2
+Surfuriyon.xml

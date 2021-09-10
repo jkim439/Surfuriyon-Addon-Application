@@ -1,0 +1,8 @@
+## Interface: 11000
+## Title: MCom
+## Notes: Set of utility functions to simplify addon creation
+## Notes-koKR: 간편한 애드온 제작을 위한 유용한 함수 셋트
+## Notes-deDE: Sammlung von Funktionen zur einfachen Erstellung von Mods.
+## OptionalDeps: Sky, Cosmos, Khaos, myAddOns
+## RequiredDeps: Sea
+MCom.xml

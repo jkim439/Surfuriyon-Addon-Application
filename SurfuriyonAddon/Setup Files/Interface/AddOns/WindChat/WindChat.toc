@@ -1,0 +1,8 @@
+## Interface: 11000
+## Title: Wind Chat
+## Author: Jae-young Lee (Wind)
+## Version: 5.0
+## Notes: Wind Chat Frame
+## Dependencies: WindCommon
+## SavedVariablesPerCharacter: WindChatConfigAll
+WindChat.xml

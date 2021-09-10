@@ -1,0 +1,7 @@
+
+MobHealthDB = {
+}
+MobHealthConfig = {
+}
+MobHealthPlayerDB = {
+}

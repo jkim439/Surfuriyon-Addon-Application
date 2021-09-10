@@ -1,0 +1,43 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindBBConfig.lua"/>
+
+	<Frame name="WindBBConfig" inherits="WindBorder" parent="UIParent">
+		<Size>
+			<AbsDimension x="180" y="80" />
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="WindConfig" relativePoint="TOPRIGHT">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Frames>
+
+			<Frame name="WindBBConfigBody" inherits="WindPoint" hidden="false">
+				<Size>
+					<AbsDimension x="80" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="10" y="-10" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="은행 및 가방들" justifyH="LEFT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+
+		</Frames>
+		<Scripts>
+			<OnShow>WindBBConfig_OnShow();</OnShow>
+		</Scripts>
+	</Frame>
+
+</Ui>

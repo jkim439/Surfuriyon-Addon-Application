@@ -1,0 +1,5 @@
+## Interface: 11000
+## Title: ActionButtonHotKeys
+## Author: Brodrick (aka Kirov)
+## Notes: Adds keybinding information to Blizzard's additional bottom and right action bars.
+ActionBarHotKeys.lua

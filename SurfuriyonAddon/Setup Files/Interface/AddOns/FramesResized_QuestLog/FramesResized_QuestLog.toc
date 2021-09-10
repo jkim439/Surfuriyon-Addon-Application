@@ -1,0 +1,7 @@
+## Interface: 11000
+## Title: Elkano's FramesResized - QuestLog
+## Author: Elkano
+## Notes: Resizes the default QuestLog to use more than 6 lines
+## DefaultState: Enabled
+FramesResized_QuestLog.xml
+FramesResized_QuestLog.lua

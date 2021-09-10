@@ -1,0 +1,40 @@
+MACRO 16777229 "감사" Ability_Druid_AquaticForm
+/s 정말 감사합니다.
+/감사
+END
+MACRO 16777225 "공격" Spell_Fire_FlameTounge
+/외침 공격~!!!!!
+/공격
+END
+MACRO 16777224 "도망" Ability_Rogue_Trip
+/외침 도망가요~!!!!!
+/대비
+END
+MACRO 16777222 "도움" Spell_Holy_BlessingOfStrength
+/외침 도와주세요~!!!!!
+/도움
+END
+MACRO 16777221 "이동" Ability_Mount_JungleTiger
+/s 모두들 이쪽으로 이동해요.
+/이쪽
+END
+MACRO 16777226 "이별" Spell_Holy_SealOfWrath
+/s 다음에 다시 만나요. 안녕히 계세요.
+/손인사
+END
+MACRO 16777228 "인사" Spell_Holy_SealOfWisdom
+/s 안녕하세요. 반갑습니다.
+/인사
+END
+MACRO 16777219 "축하" Spell_Nature_HealingTouch
+/s %t님 정말 축하드려요.
+/박수
+END
+MACRO 16777223 "치료" Spell_Holy_Renew
+/외침 치료좀 해주세요~!!!!!
+/치료
+END
+MACRO 16777220 "휴식" Spell_Arcane_StarFire
+/s 잠시 탐하고 진행해요.
+/대기
+END

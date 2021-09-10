@@ -1,0 +1,11 @@
+## Interface: 11100
+## Title: ReagentHelper
+## Title-koKR: 재료 알림이
+## Notes: Adds the professions that a reagent is used by, to the game tooltip
+## Notes-koKR: 각종 재료에 마우스를 갖다대면 어느 분야에 쓰이는지를 툴팁에 표시합니다.
+## Notes-deDE: F체gt eine Info zu den Tooltips. Zeigt Berufe an, f체r welche die Items ben철tigt werden.
+## Author: Tuatara
+## Dependencies: Sea
+## OptionalDeps: Cosmos, Khaos
+## SavedVariables: RH_TOOLTIP_ENABLE
+ReagentHelper.xml

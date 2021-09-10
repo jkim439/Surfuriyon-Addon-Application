@@ -1,0 +1,7 @@
+## Interface: 11100
+## Title: Chronos
+## Notes: Embedable Time Keeping and Scheduling System
+## Notes-deDE: Sammlung n체tzlicher Funktionen zum Zeitmanagement, welche von einigen anderen AddOns verwendet werden.
+## Notes-koKR: 내장가능한 시간 지속 및 예약 작업 시스템을 지원합니다.
+## Author: Alexander Brazie, Thott, AnduinLothar
+Chronos.xml

@@ -1,0 +1,23 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindActionBottomRight.lua"/>
+	<Frame name="MultiBarBottomRightButton1RC" parent="MultiBarBottomRightButton1" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton2RC" parent="MultiBarBottomRightButton2" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton3RC" parent="MultiBarBottomRightButton3" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton4RC" parent="MultiBarBottomRightButton4" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton5RC" parent="MultiBarBottomRightButton5" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton6RC" parent="MultiBarBottomRightButton6" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton7RC" parent="MultiBarBottomRightButton7" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton8RC" parent="MultiBarBottomRightButton8" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton9RC" parent="MultiBarBottomRightButton9" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton10RC" parent="MultiBarBottomRightButton10" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton11RC" parent="MultiBarBottomRightButton11" inherits="WindActionRC" hidden="false"/>
+	<Frame name="MultiBarBottomRightButton12RC" parent="MultiBarBottomRightButton12" inherits="WindActionRC" hidden="false"/>
+	<Frame name="WindActionBottomRight" frameStrata="BACKGROUND" toplevel="true" enableMouse="true" parent="UIParent" hidden="true">
+		<Scripts>
+			<OnLoad>WindActionBottomRight_OnLoad();</OnLoad>
+			<OnEvent>WindActionBottomRight_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

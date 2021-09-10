@@ -1,0 +1,9 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 타이탄 길드
+## Notes: A simple guild list for the Titan Panel AddOn.
+## Notes-koKR: 간략하게 길드원 목록을 표시 해주는 Titan Panel 애드온
+## Author: chicogrande
+## SavedVariables: 
+## OptionalDeps: GuildOrg
+## Dependencies: Titan
+TitanGuild.xml

@@ -1,0 +1,5 @@
+## Interface: 11000
+## Title: Stop The Spam!
+## Notes: |cff3333ffCreated by Malreth|r Finally! No more AddOn loading spam!
+StopTheSpam.xml
+StopTheSpam.lua

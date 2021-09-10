@@ -1,0 +1,63 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<!-- Internationalized Text File -->
+	<Script file="localization.lua"/>	
+	
+	<Script file="CosmosCommonFunctions.lua"/>
+	<Script file="CosmosCVar.lua"/>
+	<Script file="CosmosGuiConfig.lua"/>
+	
+	<!-- Main Script File -->
+	<Script file="CosmosMaster.lua" />
+	
+	<!-- Extra commands -->
+	<Script file="ShapeshiftCommands.lua" />
+	<Script file="CosmosCommands.lua" />
+	<Frame name="PureScriptEventsFrame" parent="UIParent" hidden="false">
+		<Scripts>
+			<OnEvent>
+				CosmosMaster_OnEvent(event);
+			</OnEvent>
+
+			<OnLoad>
+				CosmosMaster_Init();
+				PureScriptEventsFrame:Show();
+				Cosmos_Registers();
+				ShapeshiftCommands_Register();
+			</OnLoad>
+			<OnUpdate>
+				CosmosMaster_OnUpdate(arg1);
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+
+	<!-- Cosmos Menu Button START -->
+	<Button name="GameMenuButtonCosmos" inherits="GameMenuButtonTemplate" text="COSMOS_OPTIONS_TITLE" parent="GameMenuFrame">
+		<Anchors>
+			<Anchor point="CENTER" relativePoint="TOP">
+				<Offset>
+					<AbsDimension x="0" y="-37"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+			<OnLoad>
+				local loaded = LoadAddOn("CosmosMenu");
+				if ( loaded ) then
+					this:SetText(COSMOS_OPTIONS_TITLE);
+					GameMenuFrame:SetHeight(GameMenuFrame:GetHeight()+24);
+					GameMenuButtonOptions:ClearAllPoints();
+					GameMenuButtonOptions:SetPoint("TOP", "GameMenuButtonCosmos", "BOTTOM", 0, -16);
+				else
+					this:Hide();
+				end
+			</OnLoad>
+			<OnClick>
+				PlaySound("igMainMenuOption");
+				HideUIPanel(GameMenuFrame);
+				ShowUIPanel(CosmosMasterFrame);
+			</OnClick>
+		</Scripts>
+	</Button>
+	<!-- Cosmos Menu Button END -->
+</Ui>

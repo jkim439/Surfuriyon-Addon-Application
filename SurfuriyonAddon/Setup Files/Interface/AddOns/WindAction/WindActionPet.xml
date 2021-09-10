@@ -1,0 +1,21 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindActionPet.lua"/>
+	<Frame name="PetActionButton1RC" parent="PetActionButton1" inherits="WindActionRC" hidden="false"/>
+	<Frame name="PetActionButton2RC" parent="PetActionButton2" inherits="WindActionRC" hidden="false"/>
+	<Frame name="PetActionButton3RC" parent="PetActionButton3" inherits="WindActionRC" hidden="false"/>
+	<Frame name="PetActionButton4RC" parent="PetActionButton4" inherits="WindActionRC" hidden="false"/>
+	<Frame name="PetActionButton5RC" parent="PetActionButton5" inherits="WindActionRC" hidden="false"/>
+	<Frame name="PetActionButton6RC" parent="PetActionButton6" inherits="WindActionRC" hidden="false"/>
+	<Frame name="PetActionButton7RC" parent="PetActionButton7" inherits="WindActionRC" hidden="false"/>
+	<Frame name="PetActionButton8RC" parent="PetActionButton8" inherits="WindActionRC" hidden="false"/>
+	<Frame name="PetActionButton9RC" parent="PetActionButton9" inherits="WindActionRC" hidden="false"/>
+	<Frame name="PetActionButton10RC" parent="PetActionButton10" inherits="WindActionRC" hidden="false"/>
+	<Frame name="WindActionPet" frameStrata="BACKGROUND" toplevel="true" enableMouse="true" parent="UIParent" hidden="true">
+		<Scripts>
+			<OnLoad>WindActionPet_OnLoad();</OnLoad>
+			<OnEvent>WindActionPet_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

@@ -1,0 +1,71 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindBB.lua"/>
+	<Frame name="WindBagCase" inherits="WindBorder" frameStrata="MEDIUM" movable="true" enableMouse="true" hidden="true" virtual="true">
+		<Scripts>
+			<OnLoad>WindBag_OnLoad();</OnLoad>
+			<OnEvent>WindBag_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+	<Frame name="WindBag1" parent="ContainerFrame1" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag2" parent="ContainerFrame2" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag3" parent="ContainerFrame3" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag4" parent="ContainerFrame4" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag5" parent="ContainerFrame5" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag6" parent="ContainerFrame6" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag7" parent="ContainerFrame7" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag8" parent="ContainerFrame8" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag9" parent="ContainerFrame9" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag10" parent="ContainerFrame10" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBag11" parent="ContainerFrame11" inherits="WindBagCase" hidden="false"/>
+	<Frame name="WindBank" parent="UIParent" inherits="WindBorder" frameStrata="MEDIUM" enableMouse="true" hidden="true">
+		<Size>
+			<AbsDimension x="302" y="300"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="BankFrame" relativePoint="TOPLEFT">
+				<Offset>
+					<AbsDimension x="10" y="-16"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<HitRectInsets>
+			<AbsInset left="0" right="30" top="0" bottom="70"/>
+		</HitRectInsets>
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString inherits="GameFontNormal" text="ITEMSLOTTEXT">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="10" y="-10"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString inherits="GameFontNormal" text="BAGSLOTTEXT">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="10" y="-200"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad>WindBank_OnLoad();</OnLoad>
+			<OnEvent>WindBank_OnEvent(event);</OnEvent>
+			<OnShow>PlaySound("igMainMenuOpen");</OnShow>
+			<OnDragStart>WindBank_OnDragStart();</OnDragStart>
+			<OnDragStop>WindBank_OnDragStop();</OnDragStop>
+			<OnHide>
+				CloseBankBagFrames();
+				CloseBankFrame();
+				PlaySound("igMainMenuClose");
+			</OnHide>
+		</Scripts>
+	</Frame>
+</Ui>

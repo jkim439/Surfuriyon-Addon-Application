@@ -1,0 +1,25 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 타이탄 패널
+## Notes: 화면 상/하단에 게임컨트롤 및 각종 정보를 보여주는 패널을 생성해줍니다. 
+## Author: Adsertor / 한글화 : 드로아크
+## SavedVariables: TitanSettings, TITAN_HONORPLUS, TITAN_HONORPLUS_CHATINFO, ServerTimeOffsets
+## OptionalDeps: myAddOns, ImprovedErrorFrame, TipBuddy, Opium
+## Dependencies:
+## Version: 2.17.11000
+Localization.xml
+TitanUtils.xml
+TitanVariables.xml
+TitanMenu.xml
+TitanPanelTemplate.xml
+TitanMovable.xml
+TitanTooltip.xml
+TitanPanel.xml
+TitanAutoHide.xml
+TitanAuxAutoHide.xml
+TitanTrans.xml
+TitanUIScale.xml
+TitanVolume.xml
+
+
+
+

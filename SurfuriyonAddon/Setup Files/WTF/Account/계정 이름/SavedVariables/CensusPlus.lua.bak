@@ -1,0 +1,24 @@
+
+CensusPlus_Database = {
+	["Guilds"] = {
+	},
+	["Info"] = {
+		["AutoCensus"] = false,
+		["Verbose"] = true,
+		["ClientLocale"] = "koKR",
+		["CensusButtonPosition"] = 282,
+		["CensusButtonShown"] = 0,
+		["Version"] = "3.3",
+		["LoginServer"] = "kr.logon.worldofwarcraft.com",
+		["MiniStart"] = 0,
+		["Locale"] = "KR",
+	},
+	["Servers"] = {
+	},
+	["TimesPlus"] = {
+	},
+}
+CensusPlus_Profile = {
+	["말리고스"] = {
+	},
+}

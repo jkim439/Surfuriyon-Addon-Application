@@ -1,0 +1,11 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindActionMenu.lua"/>
+	<Frame name="WindActionMenu" frameStrata="BACKGROUND" toplevel="true" enableMouse="true" parent="UIParent" hidden="false">
+		<Scripts>
+			<OnLoad>WindActionMenu_OnLoad();</OnLoad>
+			<OnEvent>WindActionMenu_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

@@ -1,0 +1,60 @@
+[WindowPos]
+XPos=358
+YPos=299
+
+[Project]
+ActiveProject=Project2
+Project2=써퓨리온 애드온 2
+
+[Project2]
+Title=써퓨리온 애드온 2.0.2
+SourceFolder=C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files
+DefInstallFolder={Reg:HKLM,SOFTWARE\Blizzard Entertainment\World of Warcraft,InstallPath}; {ProgramFiles}\World of Warcraft
+ForceInstallFolder=1
+OutputFolder=C:\Homepage\worldofwarcraft\files
+OutputFilename=SurfuriyonAddon2_0_2
+Language=0
+VolumeSize=단일 볼륨
+ConfirmOverwriteSourceFolderFile=0
+NeedRestart=0
+WizardBitmapPath=C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files\써퓨리온 애드온 2 Image.bmp
+WizardStamp=http://www.wowzer.zoa.to
+Background=1
+Header=WoW Surfuriyon Addon 2.0.2
+HeaderFont=ffffff,ffffffdd,0,0,0,190,0,0,0,0,3,2,1,22,Arial
+Shadow=1
+Footer=
+FooterFont=000000,fffffff4,0,0,0,2bc,0,0,0,0,3,2,1,32,굴림
+BackgroundColor1=004080
+BackgroundColor2=adc9e7
+LicenseInfo=1
+LicenseInfoPath=C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files\써퓨리온 애드온 2 License.txt
+PreInfo=1
+PreInfoPath=C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files\써퓨리온 애드온 2 Information.txt
+PostInfo=1
+PostInfoPath=C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files\WTF\Account\써퓨리온 애드온 2 설치방법.txt
+AllowCancelPostInfo=0
+Shortcut=0
+ProgramGroupName=
+OpenProgramGroupFolder=0
+MiscFile=0
+Registry=0
+Ini=0
+SilentTool=0
+SilentToolPath=
+SilentToolArg=
+HideWizardWindow=0
+DeleteSilentTool=0
+RunApp=1
+RunAppPath={WinSysDir}\explorer.exe
+RunAppArg=/e,{InstallDir}\WTF\Account
+AllowCancelRunApp=0
+Uninstall=0
+UninstallType=1
+CPLUninstall=1
+CPLUninstallName=WoW 써퓨리온 애드온 2
+ShortcutUninstall=1
+UninstallShortcutName=써퓨리온 애드온 2 삭제
+UninstallSilentTool=0
+UninstallSilentToolPath=
+UninstallSilentToolArg=

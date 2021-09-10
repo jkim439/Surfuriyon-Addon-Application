@@ -1,0 +1,9 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 타이탄 시스템정보
+## Notes: 타이탄 패널에 현재 UI 메모리 사용량 및 프레임레이트를 표시해줍니다.
+## Author: Adsertor
+## SavedVariables: 
+## OptionalDeps: 
+## Dependencies: Titan
+## Version: 2.17.11000
+..\Titan\TitanPerformance\TitanPerformance.xml

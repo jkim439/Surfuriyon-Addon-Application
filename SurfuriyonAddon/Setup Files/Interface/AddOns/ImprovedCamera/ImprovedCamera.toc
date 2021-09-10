@@ -1,0 +1,6 @@
+## Interface: 11000
+## Title: |cffFFFFFFI|rImproved|cffFFFFFFC|ramera
+## Notes: Set the max. camera distance to the realy maximum
+## Author: Rewad
+## Version: 1.8
+ImprovedCamera.lua

@@ -1,0 +1,38 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
+	<Script file="SuperInspect.lua"/>
+	<Button name="SuperInspectButtonFrame" frameStrata="HIGH" toplevel="true" enableMouse="true" movable="true" parent="UIParent">
+		<Size>
+			<AbsDimension x="32" y="32"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TargetFrame" relativePoint="TOPLEFT">
+				<Offset>
+					<AbsDimension x="115" y="-50"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+			<OnLoad>
+				SuperInspectButton_OnLoad();
+			</OnLoad>
+			<OnClick>
+				SuperInspect_InspectTarget(unit);
+			</OnClick>
+			<OnDragStart>
+				SuperInspectButton_OnDragStart();
+			</OnDragStart>
+			<OnDragStop>
+				SuperInspectButton_OnDragStop();
+			</OnDragStop>
+			<OnMouseUp>
+				SuperInspectButton_OnDragStop();
+			</OnMouseUp>
+			<OnEvent>
+				checkEvents( event );
+			</OnEvent>
+		</Scripts>
+		<NormalTexture file="Interface\AddOns\SuperInspect\SuperInspectButton-UpNew"/>
+		<PushedTexture file="Interface\AddOns\SuperInspect\SuperInspectButton-DownNew"/>
+		<HighlightTexture alphaMode="ADD" file="Interface\Minimap\UI-Minimap-ZoomButton-Highlight"/>
+	</Button>
+</Ui>

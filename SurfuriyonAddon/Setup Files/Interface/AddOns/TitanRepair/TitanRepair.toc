@@ -1,0 +1,9 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 타이탄 내구&수리
+## Notes: 타이탄 패널에 현재 내구도를 표시해주고 수리시 전체장비 자동수리 기능을 지원합니다.
+## Author: Adsertor
+## SavedVariables: 
+## OptionalDeps: 
+## Dependencies: Titan
+## Version: 2.17.11000
+..\Titan\TitanRepair\TitanRepair.xml

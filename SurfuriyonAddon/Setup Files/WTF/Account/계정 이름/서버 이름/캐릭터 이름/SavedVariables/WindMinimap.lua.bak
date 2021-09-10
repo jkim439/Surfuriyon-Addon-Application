@@ -1,0 +1,31 @@
+
+WindMinimapBodyConfig = {
+	[1] = "CENTER",
+	[2] = 450,
+	[3] = 295,
+	[4] = 1,
+}
+WindMinimapTrackingConfig = {
+	[1] = "TOPLEFT",
+	[2] = 0,
+	[3] = 0,
+	[4] = 0.7,
+}
+WindMinimapMeetingStoneConfig = {
+	[1] = "TOP",
+	[2] = 0,
+	[3] = 0,
+	[4] = 0.87,
+}
+WindMinimapMailConfig = {
+	[1] = "TOPRIGHT",
+	[2] = 0,
+	[3] = 0,
+	[4] = 0.87,
+}
+WindMinimapBattlefieldConfig = {
+	[1] = "TOP",
+	[2] = 500,
+	[3] = -20,
+	[4] = 0.1,
+}

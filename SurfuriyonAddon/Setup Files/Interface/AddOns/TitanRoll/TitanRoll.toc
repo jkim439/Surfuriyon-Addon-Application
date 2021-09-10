@@ -1,0 +1,8 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 주사위
+## Notes: 클릭으로 주사위를 굴릴 수 있고, 공격대 주사위를 추적할 수 있는 타이탄 패널용 애드온입니다.
+## Author: QuippeR
+## SavedVariables: 
+## OptionalDeps: 
+## Dependencies: Titan
+TitanRoll.xml

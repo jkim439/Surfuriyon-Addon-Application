@@ -1,0 +1,8 @@
+## Interface: 11000
+## Title: Wind Bag and Bank
+## Author: Jae-young Lee (Wind)
+## Version: 4.1
+## Notes: Wind Bag and Bank Frame
+## Dependencies: WindCommon
+## SavedVariablesPerCharacter: WindBBConfigAll
+WindBB.xml

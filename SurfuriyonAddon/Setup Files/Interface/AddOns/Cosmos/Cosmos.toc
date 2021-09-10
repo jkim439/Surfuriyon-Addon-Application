@@ -1,0 +1,6 @@
+## Interface: 11100
+## Notes: 이것을 사용하지 않으면 하늘아리가 작동하지 않습니다.
+## OptionalDeps: Sky, ImprovedErrorFrame, Hanul, OpenAllBags
+## RequiredDeps: Chronos, Sea
+## SavedVariables: CosmosMaster_CVars, CosmosMaster_CosmosUsers
+CosmosMaster.xml

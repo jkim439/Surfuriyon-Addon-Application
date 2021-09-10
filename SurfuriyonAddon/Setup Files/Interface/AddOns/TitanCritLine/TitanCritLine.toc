@@ -1,0 +1,8 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 크리티컬 라인
+## Notes: 치명차 및 타격 기록을 보여줍니다.
+## Author: Uggh: Concept by Sordit: continued development by FALLI
+## Dependencies: Titan
+## SavedVariables: TitanCritLineSettings
+## SavedVariablesPerCharacter: TCL_SETTINGS
+TitanCritLine.xml

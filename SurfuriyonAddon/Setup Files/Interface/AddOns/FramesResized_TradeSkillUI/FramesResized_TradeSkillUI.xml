@@ -1,0 +1,147 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+
+	<Frame name="TradeSkillFrame_MidTextures" parent="TradeSkillFrame">
+		<Size>
+			<AbsDimension x="384" y="128"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillFrame" relativePoint="TOPLEFT">
+				<Offset>
+					<AbsDimension x="0" y="-256"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BORDER">
+				<Texture file="Interface\AddOns\FramesResized_Common\UI-ClassTrainer-MidLeft">
+					<Size>
+						<AbsDimension x="256" y="128"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+					</Anchors>
+				</Texture>
+				<Texture file="Interface\AddOns\FramesResized_Common\UI-ClassTrainer-MidRight">
+					<Size>
+						<AbsDimension x="128" y="128"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPRIGHT"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+	</Frame>
+	<Frame name="TradeSkillListScrollFrame_MidTextures" parent="TradeSkillListScrollFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillListScrollFrame" relativePoint="TOPRIGHT">
+				<Offset>
+					<AbsDimension x="-3" y="-117"/>
+				</Offset>
+			</Anchor>
+			<Anchor point="TOPRIGHT" relativeTo="TradeSkillListScrollFrame" relativePoint="TOPRIGHT">
+				<Offset>
+					<AbsDimension x="27" y="-117"/>
+				</Offset>
+			</Anchor>
+			<Anchor point="BOTTOMLEFT" relativeTo="TradeSkillListScrollFrame" relativePoint="BOTTOMRIGHT">
+				<Offset>
+					<AbsDimension x="-3" y="120"/>
+				</Offset>
+			</Anchor>
+			<Anchor point="BOTTOMRIGHT" relativeTo="TradeSkillListScrollFrame" relativePoint="BOTTOMRIGHT">
+				<Offset>
+					<AbsDimension x="27" y="120"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture file="Interface\ClassTrainerFrame\UI-ClassTrainer-ScrollBar">
+					<TexCoords left="0" right="0.46875" top="0.390625" bottom="0.9609375"/>
+				</Texture>
+			</Layer>
+		</Layers>
+	</Frame>
+
+	<Button name="TradeSkillSkill9" inherits="TradeSkillSkillButtonTemplate" parent="TradeSkillFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillSkill8" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="TradeSkillSkill10" inherits="TradeSkillSkillButtonTemplate" parent="TradeSkillFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillSkill9" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="TradeSkillSkill11" inherits="TradeSkillSkillButtonTemplate" parent="TradeSkillFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillSkill10" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="TradeSkillSkill12" inherits="TradeSkillSkillButtonTemplate" parent="TradeSkillFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillSkill11" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="TradeSkillSkill13" inherits="TradeSkillSkillButtonTemplate" parent="TradeSkillFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillSkill12" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="TradeSkillSkill14" inherits="TradeSkillSkillButtonTemplate" parent="TradeSkillFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillSkill13" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="TradeSkillSkill15" inherits="TradeSkillSkillButtonTemplate" parent="TradeSkillFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillSkill14" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="TradeSkillSkill16" inherits="TradeSkillSkillButtonTemplate" parent="TradeSkillFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="TradeSkillSkill15" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+</Ui>

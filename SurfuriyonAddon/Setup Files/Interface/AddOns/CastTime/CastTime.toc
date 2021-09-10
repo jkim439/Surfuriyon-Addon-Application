@@ -1,0 +1,12 @@
+## Interface: 11100
+## Title: Cast Time
+## Title-koKR: 시전시간 표시
+## Title-deDE: ZauberZeit
+## Author: exi
+## Notes: Adds a timer (in seconds) to the casting bar.
+## Notes-koKR: 주문,기술을 사용시 바에 타이머가 표시됩니다.
+## Notes-deDE: Erlaubt es die noch verbleibende Zauberzeit in der Zauberleiste anzuzeigen.
+## Dependencies:
+## OptionalDeps: Khaos, Cosmos
+## SavedVariables: CastTime
+CastTime.xml

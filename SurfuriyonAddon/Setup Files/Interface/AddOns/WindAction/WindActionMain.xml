@@ -1,0 +1,23 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindActionMain.lua"/>
+	<Frame name="ActionButton1RC" parent="ActionButton1" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton2RC" parent="ActionButton2" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton3RC" parent="ActionButton3" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton4RC" parent="ActionButton4" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton5RC" parent="ActionButton5" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton6RC" parent="ActionButton6" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton7RC" parent="ActionButton7" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton8RC" parent="ActionButton8" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton9RC" parent="ActionButton9" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton10RC" parent="ActionButton10" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton11RC" parent="ActionButton11" inherits="WindActionRC" hidden="false"/>
+	<Frame name="ActionButton12RC" parent="ActionButton12" inherits="WindActionRC" hidden="false"/>
+	<Frame name="WindActionMain" frameStrata="BACKGROUND" toplevel="true" enableMouse="true" parent="UIParent" hidden="false">
+		<Scripts>
+			<OnLoad>WindActionMain_OnLoad();</OnLoad>
+			<OnEvent>WindActionMain_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

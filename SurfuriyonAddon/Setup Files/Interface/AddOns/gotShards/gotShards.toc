@@ -1,0 +1,8 @@
+## Interface: 11100
+## Title: 조각은 챙기셨습니까?
+## Notes: 흑마법사를 위한 영혼의 조각 카운터. 영혼석 쿨타임도 관리, 생명석 자동 거래를 지원합니다.
+## Author: 엘룬섭 프리지아
+## eMail: xenore@kaist.ac.kr
+## Version: 1.10
+## SavedVariables: gotShards_DisplayFlag, gotShards_Color, gotShards_Full, gotShards_SoulStoneAlert5Flag, gotShards_SoulStoneAlert2Flag, gotShards_SoulStoneAlert0Flag, gotShards_SoulStoneAlertFlag, gotShards_AlertMessageSize, gotShards_SoulStoneAlertSound, gotShards_SoulStoneAlert_Group, gotShards_AlertNum, gotShards_AutoSortShard, gotShards_AutoSortShardBag, gotShards_AutoSortShard_Priority, gotShards_AutoSortShard_BlankOnly
+gotShards.xml

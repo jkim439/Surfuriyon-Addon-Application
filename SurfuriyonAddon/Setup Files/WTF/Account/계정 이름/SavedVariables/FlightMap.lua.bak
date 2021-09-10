@@ -1,0 +1,14 @@
+
+FlightMap = {
+	["Knowledge"] = {
+	},
+	["Opts"] = {
+		["fullTaxiMap"] = true,
+		["showPaths"] = true,
+		["showAllInfo"] = false,
+		["showCosts"] = false,
+		["useTimer"] = true,
+		["showPOIs"] = true,
+		["showTimes"] = false,
+	},
+}

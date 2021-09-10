@@ -1,0 +1,5 @@
+## Interface: 11000
+## Title: |cff9966FF[WiD]|r 블링크의 말머리 기능
+## Notes: 각종 대화창에 자신만의 고유한 말머리를 달 수 있습니다.
+## SavedVariables: BCH_DATA
+BlinkChatHead.xml

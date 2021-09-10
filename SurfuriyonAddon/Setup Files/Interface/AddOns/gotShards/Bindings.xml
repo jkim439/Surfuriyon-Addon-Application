@@ -1,0 +1,5 @@
+<Bindings>
+  <Binding name="GOTSHARDS_HEALSTONE" header="GOTSHARDS">
+  	gotShards_ExchangeHealStone();
+  </Binding>
+</Bindings>

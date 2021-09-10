@@ -1,0 +1,7 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 타이탄 클래스 트래커
+## Notes: 각 직업별로 사용하는 전용 아이템의 갯수를 표시해주는 애드온입니다.
+## Author: CrowGoblin
+## SavedVariables: ButtonTextType
+## Dependencies: Titan
+TitanClassTracker.xml

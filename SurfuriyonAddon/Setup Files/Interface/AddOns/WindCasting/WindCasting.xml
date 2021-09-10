@@ -1,0 +1,33 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindCasting.lua"/>
+	<StatusBar name="WindCasting" frameStrata="BACKGROUND" toplevel="true" parent="UIParent" hidden="true">
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString name="WindCastingText" inherits="GameFontHighlight" justifyH="CENTER"/>
+				<FontString name="WindCastingTime" inherits="GameFontHighlight" justifyH="RIGHT"/>
+			</Layer>
+			<Layer level="OVERLAY">
+				<Texture name="WindCastingSpark" file="Interface\CastingBar\UI-CastingBar-Spark" alphaMode="ADD">
+					<Size>
+						<AbsDimension x="15" y="15"/>
+					</Size>
+					<Anchors>
+						<Anchor point="CENTER"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame name="WindCastingBorder" inherits="WindBorder"/>
+		</Frames>
+		<Scripts>
+			<OnLoad>WindCasting_OnLoad();</OnLoad>
+			<OnEvent>WindCasting_OnEvent();</OnEvent>
+			<OnUpdate>WindCasting_OnUpdate();</OnUpdate>
+		</Scripts>
+		<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
+		<BarColor r="1.0" g="0.7" b="0.0"/>
+	</StatusBar>
+</Ui>

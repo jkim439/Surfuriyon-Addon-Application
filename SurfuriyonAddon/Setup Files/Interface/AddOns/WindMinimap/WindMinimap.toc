@@ -1,0 +1,8 @@
+## Interface: 11000
+## Title: Wind Minimap
+## Author: Jae-young Lee (Wind)
+## Version: 6.2
+## Notes: Wind Minimap Frame
+## Dependencies: WindCommon
+## SavedVariablesPerCharacter: WindMinimapBodyConfig, WindMinimapTrackingConfig, WindMinimapMeetingStoneConfig, WindMinimapMailConfig, WindMinimapBattlefieldConfig
+WindMinimap.xml

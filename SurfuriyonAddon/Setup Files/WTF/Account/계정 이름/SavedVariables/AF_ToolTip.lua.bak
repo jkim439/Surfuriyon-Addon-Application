@@ -1,0 +1,15 @@
+
+AF_ToolTip = {
+	["써퓨리온|말리고스"] = {
+		["Guild"] = 1,
+		["Fade"] = 1,
+		["ReactionText"] = 0,
+		["PositionY"] = 15,
+		["PositionX"] = 0,
+		["Tapped"] = 1,
+		["Anchor"] = "none",
+		["PvP"] = 0,
+		["Quest"] = 0,
+		["Rank"] = 1,
+	},
+}

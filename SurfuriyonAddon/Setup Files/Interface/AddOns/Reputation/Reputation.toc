@@ -1,0 +1,8 @@
+## Interface: 11100
+## Title: Reputation
+## Title-koKR: 평판 알림이
+## Author: Egris & Karmond
+## Notes: Shows Reputation numbers
+## Notes-koKR: 평판 수치를 표시하는 기능입니다.
+## SavedVariables: Reputations_Enabled, Reputations_Raw, Reputations_Frame, Reputations_Next, Reputations_Notify, Reputations_Load, Reputations_Repeat
+Reputation.xml

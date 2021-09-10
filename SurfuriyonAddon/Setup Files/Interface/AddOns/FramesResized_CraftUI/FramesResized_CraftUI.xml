@@ -1,0 +1,147 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+
+	<Frame name="CraftFrame_MidTextures" parent="CraftFrame">
+		<Size>
+			<AbsDimension x="384" y="128"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="CraftFrame" relativePoint="TOPLEFT">
+				<Offset>
+					<AbsDimension x="0" y="-256"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BORDER">
+				<Texture file="Interface\AddOns\FramesResized_Common\UI-ClassTrainer-MidLeft">
+					<Size>
+						<AbsDimension x="256" y="128"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+					</Anchors>
+				</Texture>
+				<Texture file="Interface\AddOns\FramesResized_Common\UI-ClassTrainer-MidRight">
+					<Size>
+						<AbsDimension x="128" y="128"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPRIGHT"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+	</Frame>
+	<Frame name="CraftListScrollFrame_MidTextures" parent="CraftListScrollFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="CraftListScrollFrame" relativePoint="TOPRIGHT">
+				<Offset>
+					<AbsDimension x="-3" y="-117"/>
+				</Offset>
+			</Anchor>
+			<Anchor point="TOPRIGHT" relativeTo="CraftListScrollFrame" relativePoint="TOPRIGHT">
+				<Offset>
+					<AbsDimension x="27" y="-117"/>
+				</Offset>
+			</Anchor>
+			<Anchor point="BOTTOMLEFT" relativeTo="CraftListScrollFrame" relativePoint="BOTTOMRIGHT">
+				<Offset>
+					<AbsDimension x="-3" y="120"/>
+				</Offset>
+			</Anchor>
+			<Anchor point="BOTTOMRIGHT" relativeTo="CraftListScrollFrame" relativePoint="BOTTOMRIGHT">
+				<Offset>
+					<AbsDimension x="27" y="120"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture file="Interface\ClassTrainerFrame\UI-ClassTrainer-ScrollBar">
+					<TexCoords left="0" right="0.46875" top="0.390625" bottom="0.9609375"/>
+				</Texture>
+			</Layer>
+		</Layers>
+	</Frame>
+
+	<Button name="Craft9" inherits="CraftButtonTemplate" parent="CraftFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="Craft8" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="Craft10" inherits="CraftButtonTemplate" parent="CraftFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="Craft9" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="Craft11" inherits="CraftButtonTemplate" parent="CraftFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="Craft10" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="Craft12" inherits="CraftButtonTemplate" parent="CraftFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="Craft11" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="Craft13" inherits="CraftButtonTemplate" parent="CraftFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="Craft12" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="Craft14" inherits="CraftButtonTemplate" parent="CraftFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="Craft13" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="Craft15" inherits="CraftButtonTemplate" parent="CraftFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="Craft14" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="Craft16" inherits="CraftButtonTemplate" parent="CraftFrame">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="Craft15" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+</Ui>

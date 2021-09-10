@@ -1,0 +1,44 @@
+                           InstallFactory Report화일
+
+                                                       작성: 2006-6-7/17:43:56
+
+[일반]
+타이틀: 써퓨리온 애드온 2.0
+소스 폴더: C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files
+기본 설치 폴더: {Reg:HKLM,SOFTWARE\Blizzard Entertainment\World of Warcraft,InstallPath}; {ProgramFiles}\World of Warcraft
+기본 설치 폴더로만 설치 가능: 예
+설치화일이 만들어진 폴더: C:\Homepage\worldofwarcraft\files
+설치화일의 이름: SurfuriyonAddon2_0.exe
+설치화일의 언어: 한글
+설치화일의 볼륨 크기: 단일 볼륨
+설치시 화일이 이미 있으면 겹쳐쓸지 물어보기: 아니오
+설치 완료 후 시스템 재시작 필요함: 아니오
+
+[창]
+위자드 창 비트맵: C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files\써퓨리온 애드온 2 Image.bmp
+제작자: http://www.wowzer.zoa.to
+배경창 머리글: WoW Surfuriyon Addon 2.0
+배경창 머리글 Log폰트: ffffff,ffffffe0,0,0,0,190,0,0,0,0,3,2,1,22,Arial
+배경창 머리글 그림자: 예
+배경창 꼬리글: 
+배경창 꼬리글 Log폰트: 000000,fffffff4,0,0,0,2bc,0,0,0,0,3,2,1,32,굴림
+배경창 색 1: 004080
+배경창 색 2: adc9e7
+
+[정보]
+라이센스 정보화일: C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files\써퓨리온 애드온 2 License.txt
+설치 전 보일 정보화일: C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files\써퓨리온 애드온 2 Information.txt
+설치 완료 후 보일 정보화일: C:\Homepage\worldofwarcraft\SurfuriyonAddon\Setup Files\WTF\Account\써퓨리온 애드온 2 설치방법.txt
+설치 완료 후 정보화일 보기 선택가능: 아니오
+
+[실행]
+설치 완료 후 실행할 프로그램: {WinSysDir}\explorer.exe
+설치 완료 후 실행할 프로그램 명령행 인수: /e,{InstallDir}\WTF\Account
+설치 완료 후 실행할 프로그램 실행 선택 가능: 아니오
+
+--------------------------------------------------------------------------------
+총 소스화일의 수  : 630
+총 소스화일의 크기: 5,093,673 바이트
+
+총 설치화일의 수  : 1
+총 설치화일의 크기: 1,643,375 바이트

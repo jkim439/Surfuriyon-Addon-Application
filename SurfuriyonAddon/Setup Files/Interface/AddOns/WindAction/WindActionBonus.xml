@@ -1,0 +1,23 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+	  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindActionBonus.lua"/>
+	<Frame name="BonusActionButton1RC" parent="BonusActionButton1" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton2RC" parent="BonusActionButton2" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton3RC" parent="BonusActionButton3" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton4RC" parent="BonusActionButton4" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton5RC" parent="BonusActionButton5" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton6RC" parent="BonusActionButton6" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton7RC" parent="BonusActionButton7" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton8RC" parent="BonusActionButton8" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton9RC" parent="BonusActionButton9" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton10RC" parent="BonusActionButton10" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton11RC" parent="BonusActionButton11" inherits="WindActionRC" hidden="false"/>
+	<Frame name="BonusActionButton12RC" parent="BonusActionButton12" inherits="WindActionRC" hidden="false"/>
+	<Frame name="WindActionBonus" frameStrata="LOW" toplevel="true" enableMouse="true" parent="UIParent" hidden="true">
+		<Scripts>
+			<OnLoad>WindActionBonus_OnLoad();</OnLoad>
+			<OnEvent>WindActionBonus_OnEvent();</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

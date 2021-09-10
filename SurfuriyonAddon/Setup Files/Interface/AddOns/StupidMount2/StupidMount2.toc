@@ -1,0 +1,19 @@
+## Interface: 11100
+## Title: StupidMount
+## Title-koKR: 자동 낙마기능
+## Author: sarf
+## Notes: Will automatically dismount when gathering stuff. Will also dismount on any action that can not be performed mounted.
+## Notes-koKR: 채집시 자동으로 말에서 내립니다. 말에서 탔을 때 할 수 없는 행동을 하려 할 때도 말에서 내리게 됩니다.
+## Notes-deDE: Automatisch absteigen vom Reittier, wenn man die Aktion sonst nicht ausf체hren kann.
+## DefaultState: enabled
+## OptionalDeps: Khaos, AutoMount, IsMounted
+## RequiredDeps: 
+## SavedVariables: StupidMount_Options
+constants.lua
+localization_en.lua
+localization_de.lua
+localization_fr.lua
+localization_kr.lua
+StupidMount2.lua
+StupidMount2_Options.lua
+StupidMount2.xml

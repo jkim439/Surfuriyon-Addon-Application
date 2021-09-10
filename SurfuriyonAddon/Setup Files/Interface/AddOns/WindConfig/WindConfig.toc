@@ -1,0 +1,14 @@
+## Interface: 11000
+## Title: Wind Config
+## Author: Jae-young Lee (Wind)
+## Version: 1.1
+## Notes: Wind Config Frame
+## RequiredDeps: WindCommon
+## OptionalDeps: WindAction, WindBB, WindCasting, WindChat, WindInfo, WindMinimap, WindItem, WindZone
+WindConfig.xml
+WindActionConfig.xml
+WindBBConfig.xml
+WindCastingConfig.xml
+WindChatConfig.xml
+WindInfoConfig.xml
+WindMinimapConfig.xml

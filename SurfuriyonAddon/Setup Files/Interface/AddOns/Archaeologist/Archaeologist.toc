@@ -1,0 +1,10 @@
+## Interface: 11100
+## Title: Archaeologist
+## Title-koKR: 고고학자 - 상태 바 설정기능
+## Notes: Universal UnitFrame enhancement. Buffs, Health, Mana, Class, Player Status
+## Notes-koKR: 자신,타겟,펫,파티창의 상태바 관련 설정기능을 제공합니다.
+## Author: AnduinLothar
+## OptionalDeps: SeaHooks, Sky, Khaos, Cosmos, MobHealth, MobInfo2
+## Dependencies: Sea
+## SavedVariables: ArchaeologistVars
+Archaeologist.xml

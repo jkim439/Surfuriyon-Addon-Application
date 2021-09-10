@@ -1,0 +1,7 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 위드(WiD) 메뉴
+## Notes: 위드의 각 애드온의 설정을 할수 있는 메뉴입니다.
+## Author: tekkub@gmail.com
+## Dependencies: Titan
+## OptionalDeps:
+TitanModMenu.xml

@@ -1,0 +1,6 @@
+## Interface: 11000
+## Title: Mozz Full World Map
+## Notes: Adds a checkbox to world map which shows unexplored areas of the map at 100% opacity in a dark aqua-blue color.
+## SavedVariables: MozzFullWorldMap
+# MozzFullWorldMap version 1.01 released 20060330
+MozzFullWorldMap.xml

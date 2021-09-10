@@ -1,0 +1,7 @@
+## Interface: 11000
+## Title: MoveAnything!
+## Notes: vJ.11000.4
+## Author: Skrag - Mod by Jason, Modified by Mars
+## SavedVariables: MoveAnything_CustomFrames, MoveAnything_CharacterSettings, MoveAnything_UseCharacterSettings
+## OptionalDeps: myAddOns, MCP
+MoveAnything.xml

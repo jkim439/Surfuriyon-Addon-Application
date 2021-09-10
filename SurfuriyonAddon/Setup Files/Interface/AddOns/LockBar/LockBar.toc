@@ -1,0 +1,5 @@
+## Interface: 11100
+## Title: 버튼 잠금 기능
+## Notes: 각종 바의 버튼을 드래그로 빠지지 않게 잠급니다.
+## SavedVariables: LockBar_IsLocked, LockBar_Mode
+LockBar.xml

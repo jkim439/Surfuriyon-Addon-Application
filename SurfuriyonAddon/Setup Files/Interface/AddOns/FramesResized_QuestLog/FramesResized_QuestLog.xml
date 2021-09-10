@@ -1,0 +1,162 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+
+	<Frame name="QuestLogFrame_MidTextures" parent="QuestLogFrame">
+		<Size>
+			<AbsDimension x="384" y="384"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="QuestLogFrame" relativePoint="TOPLEFT"/>
+		</Anchors>
+		<Layers>
+			<Layer level="BORDER">
+				<Texture file="Interface\AddOns\FramesResized_QuestLog\UI-QuestLog-MidLeft">
+					<Size>
+						<AbsDimension x="256" y="64"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="0" y="-128"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture file="Interface\AddOns\FramesResized_QuestLog\UI-QuestLog-MidRight">
+					<Size>
+						<AbsDimension x="128" y="64"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPRIGHT">
+							<Offset>
+								<AbsDimension x="0" y="-128"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture file="Interface\AddOns\FramesResized_QuestLog\UI-QuestLog-MidLeft">
+					<Size>
+						<AbsDimension x="256" y="64"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="0" y="-192"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture file="Interface\AddOns\FramesResized_QuestLog\UI-QuestLog-MidRight">
+					<Size>
+						<AbsDimension x="128" y="64"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPRIGHT">
+							<Offset>
+								<AbsDimension x="0" y="-192"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+				<Texture file="Interface\QuestFrame\UI-QuestLog-TopLeft">
+					<Size>
+						<AbsDimension x="256" y="128"/>
+					</Size>
+					<Anchors>
+						<Anchor point="BOTTOMLEFT"/>
+					</Anchors>
+					<TexCoords left="0" right="1" top="0.5" bottom="1"/>
+				</Texture>		
+				<Texture file="Interface\QuestFrame\UI-QuestLog-TopRight">
+					<Size>
+						<AbsDimension x="128" y="128"/>
+					</Size>
+					<Anchors>
+						<Anchor point="BOTTOMRIGHT"/>
+					</Anchors>
+					<TexCoords left="0" right="1" top="0.5" bottom="1"/>
+				</Texture>
+			</Layer>
+		</Layers>
+	</Frame>
+
+	<Button name="QuestLogTitle7" inherits="QuestLogTitleButtonTemplate" id="7" hidden="true" parent="QuestLogFrame_MidTextures">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="QuestLogTitle6" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="1"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="QuestLogTitle8" inherits="QuestLogTitleButtonTemplate" id="8" hidden="true" parent="QuestLogFrame_MidTextures">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="QuestLogTitle7" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="1"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="QuestLogTitle9" inherits="QuestLogTitleButtonTemplate" id="9" hidden="true" parent="QuestLogFrame_MidTextures">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="QuestLogTitle8" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="1"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="QuestLogTitle10" inherits="QuestLogTitleButtonTemplate" id="10" hidden="true" parent="QuestLogFrame_MidTextures">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="QuestLogTitle9" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="1"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="QuestLogTitle11" inherits="QuestLogTitleButtonTemplate" id="11" hidden="true" parent="QuestLogFrame_MidTextures">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="QuestLogTitle10" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="1"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="QuestLogTitle12" inherits="QuestLogTitleButtonTemplate" id="12" hidden="true" parent="QuestLogFrame_MidTextures">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="QuestLogTitle11" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="1"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="QuestLogTitle13" inherits="QuestLogTitleButtonTemplate" id="13" hidden="true" parent="QuestLogFrame_MidTextures">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="QuestLogTitle12" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="1"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+
+	<Button name="QuestLogTitle14" inherits="QuestLogTitleButtonTemplate" id="14" hidden="true" parent="QuestLogFrame_MidTextures">
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="QuestLogTitle13" relativePoint="BOTTOMLEFT">
+				<Offset>
+					<AbsDimension x="0" y="1"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+	</Button>
+</Ui>

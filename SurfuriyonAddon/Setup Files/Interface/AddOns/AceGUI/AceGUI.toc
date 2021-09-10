@@ -1,0 +1,18 @@
+## Interface: 11000
+## Author: Turan & Kaelten
+## Title: |cffCC6666[WiD]|r AceGUI
+## Notes: Ace기반 GUI에디팅 툴
+## Dependencies: Ace
+AceGUIElement.xml
+elements\AceGUIFontString.xml
+elements\AceGUIFrame.xml
+elements\AceGUIDialog.xml
+elements\AceGUIButton.xml
+elements\AceGUIListBox.xml
+elements\AceGUIDropDown.xml
+elements\AceGUIEditBox.xml
+elements\AceGUICheckBox.xml
+elements\AceGUIOptionsBox.xml
+elements\AceGUIScrollFrame.xml
+elements\AceGUIScrollEditBox.xml
+AceGUI.xml

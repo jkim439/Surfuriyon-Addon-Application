@@ -1,0 +1,4 @@
+## Interface: 11000
+## Title: 블링크의 가방 자동열기
+## Notes: 상점, 은행창 등이 열리면 모든가방을 한꺼번에 엽니다.
+BlinkOpenBag.xml

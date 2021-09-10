@@ -1,0 +1,9 @@
+## Interface: 11000
+## Title: Elkano's FramesResized - Trade Skill UI
+## Author: Elkano
+## Notes: Resizes the default Trade Skill UI to use more than 8 lines
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## LoadWith: Blizzard_TradeSkillUI
+FramesResized_TradeSkillUI.xml
+FramesResized_TradeSkillUI.lua

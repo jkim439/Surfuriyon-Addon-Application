@@ -1,0 +1,527 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="WindChatConfig.lua"/>
+
+	<Frame name="WindChatConfig" inherits="WindBorder" parent="UIParent">
+		<Size>
+			<AbsDimension x="220" y="175" />
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT" relativeTo="WindConfig" relativePoint="TOPRIGHT">
+				<Offset>
+					<AbsDimension x="0" y="0" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Frames>
+
+			<Frame name="$parent1Text">
+				<Size>
+					<AbsDimension x="90" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
+						<Offset>
+							<AbsDimension x="10" y="-10" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="일반 채팅창 배율" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<EditBox name="$parent1" inherits="WindEditBox" hidden="false">
+				<Size>
+					<AbsDimension x="40" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent1Text" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="10" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnterPressed>WindChatConfig_changeScale(1);</OnEnterPressed>
+					<OnTabPressed>WindChatConfig_changeScale(1);</OnTabPressed>
+					<OnEscapePressed>WindChatConfig_changeScale(1);</OnEscapePressed>
+				</Scripts>
+			</EditBox>
+			<Frame name="$parent1BorderText">
+				<Size>
+					<AbsDimension x="30" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent1" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="배경" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<CheckButton name="$parent1Border" inherits="WindCheckButton" hidden="false">
+				<Size>
+					<AbsDimension x="20" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent1BorderText" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="5" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>WindChatConfig_changeBorder(1);</OnClick>
+				</Scripts>
+			</CheckButton>
+
+			<Frame name="$parent2Text">
+				<Size>
+					<AbsDimension x="90" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent1Text" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="전투 채팅창 배율" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<EditBox name="$parent2" inherits="WindEditBox" hidden="false">
+				<Size>
+					<AbsDimension x="40" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent2Text" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="10" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnterPressed>WindChatConfig_changeScale(2);</OnEnterPressed>
+					<OnTabPressed>WindChatConfig_changeScale(2);</OnTabPressed>
+					<OnEscapePressed>WindChatConfig_changeScale(2);</OnEscapePressed>
+				</Scripts>
+			</EditBox>
+			<Frame name="$parent2BorderText">
+				<Size>
+					<AbsDimension x="30" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent2" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="배경" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<CheckButton name="$parent2Border" inherits="WindCheckButton" hidden="false">
+				<Size>
+					<AbsDimension x="20" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent2BorderText" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="5" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>WindChatConfig_changeBorder(2);</OnClick>
+				</Scripts>
+			</CheckButton>
+
+			<Frame name="$parent3Text">
+				<Size>
+					<AbsDimension x="90" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent2Text" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="3번 채팅창 배율" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<EditBox name="$parent3" inherits="WindEditBox" hidden="false">
+				<Size>
+					<AbsDimension x="40" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent3Text" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="10" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnterPressed>WindChatConfig_changeScale(3);</OnEnterPressed>
+					<OnTabPressed>WindChatConfig_changeScale(3);</OnTabPressed>
+					<OnEscapePressed>WindChatConfig_changeScale(3);</OnEscapePressed>
+				</Scripts>
+			</EditBox>
+			<Frame name="$parent3BorderText">
+				<Size>
+					<AbsDimension x="30" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent3" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="배경" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<CheckButton name="$parent3Border" inherits="WindCheckButton" hidden="false">
+				<Size>
+					<AbsDimension x="20" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent3BorderText" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="5" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>WindChatConfig_changeBorder(3);</OnClick>
+				</Scripts>
+			</CheckButton>
+
+			<Frame name="$parent4Text">
+				<Size>
+					<AbsDimension x="90" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent3Text" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="4번 채팅창 배율" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<EditBox name="$parent4" inherits="WindEditBox" hidden="false">
+				<Size>
+					<AbsDimension x="40" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent4Text" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="10" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnterPressed>WindChatConfig_changeScale(4);</OnEnterPressed>
+					<OnTabPressed>WindChatConfig_changeScale(4);</OnTabPressed>
+					<OnEscapePressed>WindChatConfig_changeScale(4);</OnEscapePressed>
+				</Scripts>
+			</EditBox>
+			<Frame name="$parent4BorderText">
+				<Size>
+					<AbsDimension x="30" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent4" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="배경" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<CheckButton name="$parent4Border" inherits="WindCheckButton" hidden="false">
+				<Size>
+					<AbsDimension x="20" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent4BorderText" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="5" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>WindChatConfig_changeBorder(4);</OnClick>
+				</Scripts>
+			</CheckButton>
+
+			<Frame name="$parent5Text">
+				<Size>
+					<AbsDimension x="90" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent4Text" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="5번 채팅창 배율" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<EditBox name="$parent5" inherits="WindEditBox" hidden="false">
+				<Size>
+					<AbsDimension x="40" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent5Text" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="10" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnterPressed>WindChatConfig_changeScale(5);</OnEnterPressed>
+					<OnTabPressed>WindChatConfig_changeScale(5);</OnTabPressed>
+					<OnEscapePressed>WindChatConfig_changeScale(5);</OnEscapePressed>
+				</Scripts>
+			</EditBox>
+			<Frame name="$parent5BorderText">
+				<Size>
+					<AbsDimension x="30" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent5" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="배경" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<CheckButton name="$parent5Border" inherits="WindCheckButton" hidden="false">
+				<Size>
+					<AbsDimension x="20" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent5BorderText" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="5" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>WindChatConfig_changeBorder(5);</OnClick>
+				</Scripts>
+			</CheckButton>
+
+			<Frame name="$parent6Text">
+				<Size>
+					<AbsDimension x="90" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent5Text" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="6번 채팅창 배율" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<EditBox name="$parent6" inherits="WindEditBox" hidden="false">
+				<Size>
+					<AbsDimension x="40" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent6Text" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="10" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnterPressed>WindChatConfig_changeScale(6);</OnEnterPressed>
+					<OnTabPressed>WindChatConfig_changeScale(6);</OnTabPressed>
+					<OnEscapePressed>WindChatConfig_changeScale(6);</OnEscapePressed>
+				</Scripts>
+			</EditBox>
+			<Frame name="$parent6BorderText">
+				<Size>
+					<AbsDimension x="30" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent6" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="배경" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<CheckButton name="$parent6Border" inherits="WindCheckButton" hidden="false">
+				<Size>
+					<AbsDimension x="20" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent6BorderText" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="5" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>WindChatConfig_changeBorder(6);</OnClick>
+				</Scripts>
+			</CheckButton>
+
+			<Frame name="$parent7Text">
+				<Size>
+					<AbsDimension x="90" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent6Text" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="7번 채팅창 배율" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<EditBox name="$parent7" inherits="WindEditBox" hidden="false">
+				<Size>
+					<AbsDimension x="40" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent7Text" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="10" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnterPressed>WindChatConfig_changeScale(7);</OnEnterPressed>
+					<OnTabPressed>WindChatConfig_changeScale(7);</OnTabPressed>
+					<OnEscapePressed>WindChatConfig_changeScale(7);</OnEscapePressed>
+				</Scripts>
+			</EditBox>
+			<Frame name="$parent7BorderText">
+				<Size>
+					<AbsDimension x="30" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent7" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="배경" justifyH="RIGHT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+			<CheckButton name="$parent7Border" inherits="WindCheckButton" hidden="false">
+				<Size>
+					<AbsDimension x="20" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parent7BorderText" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="5" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>WindChatConfig_changeBorder(7);</OnClick>
+				</Scripts>
+			</CheckButton>
+
+			<CheckButton name="$parentTop" inherits="WindCheckButton" hidden="false">
+				<Size>
+					<AbsDimension x="20" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent7Text" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>WindChatConfig_changeTop();</OnClick>
+				</Scripts>
+			</CheckButton>
+			<Frame name="$parentTopText">
+				<Size>
+					<AbsDimension x="120" y="20" />
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parentTop" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer>
+						<FontString inherits="WindFontString" text="채팅 입력부를 위로 이동" justifyH="LEFT" hidden="false"/>
+					</Layer>
+				</Layers>
+			</Frame>
+
+		</Frames>
+		<Scripts>
+			<OnShow>WindChatConfig_OnShow();</OnShow>
+		</Scripts>
+	</Frame>
+
+</Ui>

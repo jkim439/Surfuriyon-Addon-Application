@@ -1,0 +1,7 @@
+
+QuickLoot_Options = {
+	["onScreen"] = false,
+	["autoHide"] = true,
+	["enable"] = true,
+	["moveOnce"] = false,
+}

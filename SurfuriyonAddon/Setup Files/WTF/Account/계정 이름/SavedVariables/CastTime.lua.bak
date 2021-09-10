@@ -1,0 +1,20 @@
+
+CastTime = {
+	["outline"] = 1,
+	["flock"] = 0,
+	["mirrors"] = {
+	},
+	["mirror"] = 1,
+	["delaySum"] = 0,
+	["hun"] = 1,
+	["startTime"] = 8484.217000000001,
+	["mf"] = 0,
+	["maxValue"] = 8487.217000000001,
+	["spellname"] = "줄무늬빙호",
+	["inline"] = 0,
+	["endTime"] = 0,
+	["display"] = 1,
+	["print"] = 0,
+	["delay"] = 1,
+	["sign"] = "+",
+}

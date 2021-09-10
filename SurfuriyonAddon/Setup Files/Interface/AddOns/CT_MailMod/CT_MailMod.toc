@@ -1,0 +1,8 @@
+## Interface: 11000
+## Version: 1.423 (CTMod 1.853)
+## Title: [Lne]대량 우편 발송/수신
+## Notes: 많은 양의 우편을 편리하게 한꺼번에 보내고 받을수 있는 애드온 입니다.|n|n 한글화 : 와일드해머 얼라이언스 사제의손길
+## SavedVariables: CT_MMInbox_DisplayMessages
+## OptionalDeps: CT_MasterMod
+CT_MailMod.xml
+CT_MMInbox.xml

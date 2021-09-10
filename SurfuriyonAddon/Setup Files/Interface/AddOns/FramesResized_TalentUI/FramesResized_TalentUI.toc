@@ -1,0 +1,9 @@
+## Interface: 11000
+## Title: Mars's FramesResized - Talent UI
+## Author: Mars
+## Notes: Resizes the default Talent UI to use more than 8 lines
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## LoadWith: Blizzard_TalentUI
+FramesResized_TalentUI.xml
+FramesResized_TalentUI.lua

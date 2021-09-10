@@ -1,0 +1,9 @@
+## Interface: 11000
+## Title: Elkano's FramesResized - Craft UI
+## Author: Elkano
+## Notes: Resizes the default Craft UI to use more than 8 lines
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## LoadWith: Blizzard_CraftUI
+FramesResized_CraftUI.xml
+FramesResized_CraftUI.lua

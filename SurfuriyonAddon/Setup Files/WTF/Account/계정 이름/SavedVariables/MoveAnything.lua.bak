@@ -1,0 +1,19 @@
+
+MoveAnything_CustomFrames = {
+}
+MoveAnything_CharacterSettings = {
+	["default"] = {
+		["BuffFrame"] = {
+			["originalLeft"] = 811.6667151369705,
+			["scale"] = 0.9999999022960716,
+			["originalBottom"] = 766.3335814860232,
+			["hidden"] = false,
+			["y"] = 766.3335814860232,
+			["x"] = 747.6667395629505,
+			["movable"] = true,
+			["name"] = "BuffFrame",
+			["originalScale"] = 1,
+		},
+	},
+}
+MoveAnything_UseCharacterSettings = false

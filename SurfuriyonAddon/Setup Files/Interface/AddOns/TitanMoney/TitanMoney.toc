@@ -1,0 +1,9 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 타이탄 소지금정보
+## Notes: 타이탄 패널에 현재 소지금을 표시해 줍니다. 
+## Author: Adsertor
+## SavedVariables: 
+## OptionalDeps: 
+## Dependencies: Titan
+## Version: 2.17.11000
+..\Titan\TitanMoney\TitanMoney.xml

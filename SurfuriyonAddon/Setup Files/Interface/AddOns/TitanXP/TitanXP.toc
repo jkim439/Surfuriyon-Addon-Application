@@ -1,0 +1,9 @@
+## Interface: 11000
+## Title: |cffFF00FF[WiD]|r 타이탄 경험치 정보
+## Notes: 타이탄 패널에 실시간 경험치 정보를 표시해줍니다.
+## Author: Adsertor
+## SavedVariables: 
+## OptionalDeps: 
+## Dependencies: Titan
+## Version: 2.17.11000
+..\Titan\TitanXP\TitanXP.xml
